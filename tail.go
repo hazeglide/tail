@@ -15,10 +15,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hpcloud/tail/ratelimiter"
-	"github.com/hpcloud/tail/util"
-	"github.com/hpcloud/tail/watch"
-	"gopkg.in/tomb.v1"
+	"github.com/hazeglide/tail/ratelimiter"
+	"github.com/hazeglide/tail/util"
+	"github.com/hazeglide/tail/watch"
+	tomb "gopkg.in/tomb.v1"
 )
 
 var (
